@@ -1,0 +1,50 @@
+h1{
+  background-color: blue;
+  color:white;
+}
+a{
+  color: blue;
+}
+h2{
+  border: 2px dashed blue;
+  color: blue;
+  font-family: sans-serif;
+
+}
+table {
+    border-collapse: collapse;
+
+    border: 2px solid rgb(100,100,100);
+
+    letter-spacing: 1px;
+
+
+    padding: 10px 20px;
+    font-family: sans-serif;
+
+
+}
+td,th {
+
+    border: 1px solid rgb(190,190,190);
+
+    padding: 10px 20px;
+    font-family: times new roman;
+
+}
+th{
+  background-color: red;
+
+}
+tr:nth-child(even) td{
+  background-color: blue;
+}
+
+input:invalid{
+  border: 2px dashed red;
+
+}
+input:valid{
+  border: 2px dashed black;
+
+}
